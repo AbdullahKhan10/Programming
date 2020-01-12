@@ -1,0 +1,193 @@
+Warning: Using a password on the command line interface can be insecure.
+--------------
+SELECT last_name FROM patient
+--------------
+
++-----------+
+| last_name |
++-----------+
+| Gellar    |
+| Brown     |
+| Green     |
+| Khan      |
+| Gellar    |
+| Gellar    |
+| Bing      |
++-----------+
+7 rows in set (0.00 sec)
+
+--------------
+SELECT DISTINCT last_name FROM patient
+--------------
+
++-----------+
+| last_name |
++-----------+
+| Gellar    |
+| Brown     |
+| Green     |
+| Khan      |
+| Bing      |
++-----------+
+5 rows in set (0.00 sec)
+
+--------------
+SELECT * FROM doctor ORDER BY last_name
+--------------
+
++----------------+------------+------------+--------------+---------------+----------+
+| license_number | first_name | last_name  | specialty    | date_licensed | works_at |
++----------------+------------+------------+--------------+---------------+----------+
+| SE66           | Colleen    | Aziz       | Surgeon      | 1989-08-24    | ABC      |
+| HT45           | Ross       | Clooney    | Surgeon      | 1987-06-20    | DDE      |
+| SE67           | Gregory    | House      | Surgeon      | 1978-01-01    | ABC      |
+| RD34           | Bernie     | Kavorikian | Urologist    | 1980-09-09    | BBC      |
+| GD56           | Joey       | Shabado    | Podiatrist   | 1960-06-24    | BBC      |
+| YT67           | Ben        | Spock      | Pediatrician | 1955-02-20    | DDE      |
+| JK78           | Mandy      | Webster    | Surgeon      | 1990-08-08    | BBC      |
++----------------+------------+------------+--------------+---------------+----------+
+7 rows in set (0.00 sec)
+
+--------------
+SELECT name, hospital_id FROM hospital WHERE number_of_beds > 1500
+--------------
+
++----------+-------------+
+| name     | hospital_id |
++----------+-------------+
+| Victoria | ABC         |
++----------+-------------+
+1 row in set (0.01 sec)
+
+--------------
+SELECT doctor.last_name, doctor.first_name FROM doctor INNER JOIN hospital ON doctor.works_at = hospital.hospital_id WHERE hospital.name = 'St.Joseph'
+--------------
+
++------------+------------+
+| last_name  | first_name |
++------------+------------+
+| Shabado    | Joey       |
+| Webster    | Mandy      |
+| Kavorikian | Bernie     |
++------------+------------+
+3 rows in set (0.00 sec)
+
+--------------
+SELECT first_name, last_name FROM patient WHERE last_name LIKE 'G%'
+--------------
+
++------------+-----------+
+| first_name | last_name |
++------------+-----------+
+| Bill       | Gellar    |
+| Jon        | Green     |
+| Colleen    | Gellar    |
+| Sean       | Gellar    |
++------------+-----------+
+4 rows in set (0.00 sec)
+
+--------------
+SELECT patient.first_name, patient.last_name FROM patients_assigned_to_doctor 
+JOIN doctor ON patients_assigned_to_doctor.doctor_id = doctor.license_number 
+JOIN patient ON patients_assigned_to_doctor.patient_id = patient.ohip_number 
+WHERE doctor.last_name = 'Clooney'
+--------------
+
++------------+-----------+
+| first_name | last_name |
++------------+-----------+
+| Suzi       | Brown     |
+| Jon        | Green     |
+| Abdullah   | Khan      |
+| Sean       | Gellar    |
+| Scotty     | Bing      |
++------------+-----------+
+5 rows in set (0.00 sec)
+
+--------------
+SELECT hospital.name, hospital.city, doctor.last_name FROM hospital 
+JOIN doctor ON hospital.head_doctor = doctor.license_number
+--------------
+
++-----------+----------+-----------+
+| name      | city     | last_name |
++-----------+----------+-----------+
+| Victoria  | London   | Aziz      |
+| St.Joseph | London   | Shabado   |
+| Victoria  | Victoria | Spock     |
++-----------+----------+-----------+
+3 rows in set (0.00 sec)
+
+--------------
+SELECT SUM(number_of_beds) AS TotalNumberofBeds FROM hospital
+--------------
+
++-------------------+
+| TotalNumberofBeds |
++-------------------+
+|              3800 |
++-------------------+
+1 row in set (0.00 sec)
+
+--------------
+SELECT patient.first_name AS PatientFirstName, doctor.first_name AS DoctorFirstName FROM patients_assigned_to_doctor 
+JOIN doctor ON patients_assigned_to_doctor.doctor_id = doctor.license_number 
+JOIN patient ON patients_assigned_to_doctor.patient_id = patient.ohip_number
+WHERE doctor.license_number IN (SELECT head_doctor AS license_number FROM hospital)
+--------------
+
++------------------+-----------------+
+| PatientFirstName | DoctorFirstName |
++------------------+-----------------+
+| Bill             | Joey            |
+| Jon              | Colleen         |
+| Colleen          | Joey            |
+| Scotty           | Joey            |
++------------------+-----------------+
+4 rows in set (0.00 sec)
+
+--------------
+SELECT doctor.last_name, doctor.first_name FROM doctor 
+JOIN hospital ON doctor.works_at = hospital.hospital_id
+WHERE hospital.name = 'Victoria' AND doctor.specialty = 'Surgeon'
+--------------
+
++-----------+------------+
+| last_name | first_name |
++-----------+------------+
+| Aziz      | Colleen    |
+| House     | Gregory    |
+| Clooney   | Ross       |
++-----------+------------+
+3 rows in set (0.00 sec)
+
+--------------
+SELECT DISTINCT doctor.first_name FROM doctor, patients_assigned_to_doctor 
+WHERE doctor.license_number NOT IN (SELECT doctor_id FROM patients_assigned_to_doctor)
+--------------
+
++------------+
+| first_name |
++------------+
+| Bernie     |
+| Gregory    |
+| Ben        |
++------------+
+3 rows in set (0.00 sec)
+
+--------------
+SELECT first_name, last_name FROM doctor, patients_assigned_to_doctor
+WHERE doctor.license_number = patients_assigned_to_doctor.doctor_id
+GROUP BY doctor.license_number HAVING COUNT(doctor.license_number) > 1
+--------------
+
++------------+-----------+
+| first_name | last_name |
++------------+-----------+
+| Joey       | Shabado   |
+| Ross       | Clooney   |
+| Mandy      | Webster   |
++------------+-----------+
+3 rows in set (0.00 sec)
+
+Bye

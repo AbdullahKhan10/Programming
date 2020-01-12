@@ -1,0 +1,134 @@
+33
+
+S	3	40
+The philosopher's stone (S) is here.
+You have the philospher's stone (S) in your pocket.
+
+s	11	10
+There is a discarded basilisk skin (s) lying here.
+You are dragging a discarded basilisk skin (s) behind you.
+
+V	12	5
+There is a live viper (V) here.
+There is a live viper (V) drapped over your shoulders.
+
+A	17	5
+There are some detailed astronomical charts (A) here.
+You are carrying some rolled-up astronomy charts (A).
+
+C	24	10
+There is a bag of befuddling cauldron cakes (C) here.
+You are carrying a bag of befuddling cauldron cakes (C).
+
+L	20	5
+There is a seven-stringed lyre (L) here.
+You are playing a seven-stringed lyre (L).
+
+j	28	5
+There is a jar of Bluebell Flame (j) here.
+You are carrying a jar of Bluebell Flame (j).
+
+P	22	15
+There is a bottle of fireproofing potion (P) here.
+A bottle of fireproofing potion (P) hangs from your belt.
+
+m	25	5
+Hagrid's moleskin coat is lying here (m).
+You are wearing Hagrid's moleskin coat (m).  It's way too big.
+
+r	27	5
+There is some rope made from spider silk (r) here.
+You have some spider-silk rope (r) coiled around your arm.
+
+b	29	10
+There is a bottle of balancing potion (b) here.
+A bottle of balancing potion (b) hangs from your belt.
+
+K	34	15
+There is a winged, silver key (K) flying around the area.
+You are trying to keep your grip on a winged, silver key (K).
+
+G	38	5
+Grawp, the giant, (G) is standing here on a rope leash.
+You are leading Grawp, the giant, (G) on a rope leash.
+
+d	43	5
+There is a bottle of befuddlement draught (d) here.
+A bottle of befuddlement draught (d) hangs from your belt.
+
+h	44	10
+There is a shield hat (h) here.
+You are wearing a shield hat (h).
+
+f	47	10
+There is a fanged frisbee (f) here.
+You are carrying a fanged frisbee (f).  It is growling at you.
+
+v	56	5
+There are some venomous tentactula leaves (v) here.
+You are carrying some venomous tentactula leaves (v).
+
+p	58	10
+There is a bottle of polyjuice potion (p) here.
+A bottle of polyjuice potion (p) hangs from your belt.
+
+N	59	5
+Mrs. Norris, the cat, (N) is standing here pertified.
+You are carrying Mrs. Norris (N), the petrified cat, by the tail.
+
+H	66	15
+There is a portable hole (H) here.  It doesn't go anywhere.
+There's a hole in your pocket.  Specifically, a portable hole (H).
+
+B	73	10
+There is a Comet 360 broomstick (B) here.
+You are riding a Comet 360 broomstick (B).
+
+l	82	5
+There is a crumpled list of Gryffindor passwords (l) on it.
+You have a list of Gryffindor passwords (l) in your pocket.
+
+c	88	5
+There are some Sherbert Lemon candies (c) here.
+You are carrying some Sherbert Lemon candies (c).
+
+e	94	5
+There is an essay (e) on the goblin rebellion of 1753 here.
+You are carrying an essay (e) on the goblin rebellion of 1753.
+
+g	95	10
+There is a messy mass of gillyweed (g) here.
+You are carrying a messy mass of gillyweed (g).
+
+M	99	10
+There is a book entitled Moste Potente Potions (M) here.
+You have the book Moste Potente Potions (M) under your arm.
+
+w	100	5
+There is pipe wrench (w) here.
+You are carrying a pipe wrench (w).
+
+E	103	10
+There is an extensible ladder (E) here.
+You are carrying an extensible ladder (E) in its shortest form.
+
+R	108	5
+Scabbers the rat (R) is here.
+Scabbers the rat (R) is scurrying along after you.
+
+a	109	-10
+There is an incriminating, bloody axe (a) here.
+You are carrying an incriminating, bloody axe (a).  Not good!
+
+F	111	5
+There are some magical fireworks (F) here.
+You are carrying some magical fireworks (F).
+
+k	121	10
+The key to Hogwarts (k) is sitting here.  It is very large.
+You have the key to Hogwarts (k) in your pocket.
+
+t	123	50
+There is a treasure chest full of gold (t) here.
+You are lugging a treasure chest full of gold (t).
+

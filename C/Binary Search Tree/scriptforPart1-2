@@ -1,0 +1,91 @@
+Script started on Fri 16 Nov 2018 07:33:59 PM EST
+[?1034hbash-4.2$ pwd
+/gaul/s1/student/2018/akhan689/Courses/CS2211a/Asn/asn4
+bash-4.2$ date
+Fri Nov 16 19:34:13 EST 2018
+bash-4.2$ who am i 
+akhan689 pts/0        2018-11-16 19:33
+bash-4.2$ ls
+part1  part2  script1  script1-2
+bash-4.2$ cd part1
+bash-4.2$ ls
+bst.c  bst.h  data.c  data.h  main.c  out
+bash-4.2$ gcc main.[K[K[K[K[K[K -o out main.c data.c bst.c
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:27:9:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbst[m[K’ with no linkage
+  BStree bst;
+[01;32m[K         ^[m[K
+[01m[Kmain.c:11:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbst[m[K’ was here
+  BStree bst;
+[01;32m[K         ^[m[K
+bash-4.2$ ls 
+bst.c  bst.h  data.c  data.h  main.c  out
+bash-4.2$ main[K[K[K[Kvi main.c
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"main.c" [dos] 73L, 2032C[1;1H// ====== this is a sample main program
+#define _CRT_SECURE_NO_WARNINGS
+#define MAX_STRING_LEN 80
+
+#include <stdio.h>
+#include "bst.h"
+#include "data.h"
+
+int main(void) {[11;9HBStree bst;[12;9Hbst = bstree_ini(1000);[13;9Hbstree_insert(bst, key_construct("Once", 1), 11);[14;9Hbstree_insert(bst, key_construct("Upon", 22), 2);[15;9Hbstree_insert(bst, key_construct("a", 3), 33);[16;9Hbstree_insert(bst, key_construct("Time", 4), 44);[17;9Hbstree_insert(bst, key_construct("is", 5), 55);[18;9Hbstree_insert(bst, key_construct("filmed", 6), 66);[19;9Hbstree_insert(bst, key_construct("in", 7), 77);[20;9Hbstree_insert(bst, key_construct("Vancouver", 8), 88);[21;9Hbstree_insert(bst, key_construct("!", 99), 9);[22;9Hbstree_insert(bst, key_construct("Once", 5), 50);[23;9Hbstree_insert(bst, key_construct("Once", 1), 10);[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+[8CBStree bst[?25l;[11;19H[K[11;18H[?12l[?25h[12;18H[13;18H[12;13H[?25l = bstree_ini(1000);[12;31H[K[12;11H[?12l[?25h[13;11Htree_insert(bst, key_const[?25l, key_construct("Once", 1), 11);[13;57H[K[13;25H[?12l[?25h[14;25Ht[?25l, key_construct("Upon", 22), 2);[14;57H[K[14;25H[?12l[?25h[15;25Ht[?25l, key_construct("a", 3), 33);[15;54H[K[15;25H[?12l[?25h[16;25Ht[?25l, key_construct("Time", 4), 44);[16;57H[K[16;25H[?12l[?25h[17;25Ht[?25l, key_construct("is", 5), 55);[17;55H[K[17;25H[?12l[?25h[18;25Ht[?25l, key_construct("filmed", 6), 66);[18;59H[K[18;25H[?12l[?25h[19;25Ht[?25l, key_construct("in", 7), 77);[19;55H[K[19;25H[?12l[?25h[20;25Ht[?25l, key_construct("Vancouver", 8), 88);[20;62H[K[20;25H[?12l[?25h[21;25Ht[?25l, key_construct("!", 99), 9);[21;54H[K[21;25H[?12l[?25h[22;25Ht[?25l, key_construct("Once", 5), 50);[22;57H[K[22;25H[?12l[?25h[23;25Ht[?25l, key_construct("Once", 1), 10);[23;57H[K[23;25H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hbstree_traversal(bst);[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hbstree_free(bst);[?12l[?25h[22;25H(bst[?25l);[22;30H[K[22;28H[?12l[?25h[23;26Ht[?25l);[23;25H[K[23;23H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HBStree bst;[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hint bst_size;[?12l[?25h[22;20H[21;1H[20;23H[19;23H[24;1H[K[19;22H[?25l[?12l[?25h[?25l[24;1H:[?12l[?25hwq[?25l"main.c" [dos] 73L, 2017C written
+[?1l>[?12l[?25h[?1049lbash-4.2$ ;s[K[Kls
+bst.c  bst.h  data.c  data.h  main.c  out
+bash-4.2$ m[Kgcc -o out main.c data.c bst.c
+bash-4.2$ ls
+bst.c  bst.h  data.c  data.h  main.c  out
+bash-4.2$ ./out
+(! 99) 9 
+(Once 1) 11 
+(Once 5) 50 
+(Time 4) 44 
+(Upon 22) 2 
+(Vancouver 8) 88 
+(a 3) 33 
+(filmed 6) 66 
+(in 7) 77 
+(is 5) 55 
+Welcome to the binary tree insertion and print program!!
+Enter an integer number of the size of the binary tree: 20
+Binary search tree of size 20 is initialized!
+
+How many items would you like to insert into the tree: 2
+
+Please enter a key name: once
+Please enter a key id (This is a number): 34
+Please enter the ID (This is a number): 23
+Your item was inserted into the tree!
+
+Please enter a key name: hi ello
+Please enter a key id (This is a number): 34
+Please enter the ID (This is a number): 234
+Your item was inserted into the tree!
+
+Here is the traversal of the tree you created: 
+
+( 34) 23 
+bash-4.2$ ls
+bst.c  bst.h  data.c  data.h  main.c  out
+bash-4.2$ rm out
+bash-4.2$ ls
+bst.c  bst.h  data.c  data.h  main.c
+bash-4.2$ exit
+exit
+
+Script done on Fri 16 Nov 2018 07:36:48 PM EST

@@ -1,0 +1,923 @@
+211
+
+// 0								//
+Invalid node.
+
+You are round stone room.  The Mirror of Erised stands on the
+south wall.  There is a flame-filled doorway to the east.
+
+You are in a room filled with Gubraithian fire.  The entire
+room is aflame, but the fire burns hottest near the doors in the
+south and west walls.
+
+You are inside the Mirror of Erised.  Shades of forgotten dreams
+hang around you, beckoning you farther south.  To the north, an
+image of a round stone room ripples like water.
+
+You are in a narrow room dominated by an unconscious troll.
+There is door with a heavy silver lock to the south and a
+flame-filled doorway to the north.
+
+// 5								//
+You are in a place of hope and longing.  You follow the images
+of your desires for a measureless time.
+Eventually, you waste away.
+
+You are in a square room tiled like a chess board and strewn
+with broken chess pieces larger than you.  There are doors to
+the north and south.
+
+You are at the north end of the Chamber of Secrets, at the foot
+of a tall statue of Salazar Slytherin.  Pillars carved like
+giant snakes support the high ceiling.
+Suddenly a large snake slithers out of the mouth of a statue.
+Its eyes glow with a malevolent green light.  You have just
+enough time to realize that it is a basilisk before you die.
+
+You are in a vast hollow in the Forbidden Forest.  At the
+center is a large, domed web.  Acromantula scuttle downward from
+webs strung between the trees around the hollow, quickly
+blocking the only exit in the north.  You try to fight them off,
+but there are too many.
+
+You are at the bottom of a tall, slanted room.  Glinting birds
+fly around the ceiling to the west.  There is a door with a
+heavy silver lock to the north, and a stone passage slopes
+upwards to the south.
+
+// 10								//
+You are in a pile of old bones at the west end of a slimy
+tunnel.  To the west, a steep, dark shaft leads upwards.
+
+You are at the south end of the Chamber of Secrets.  Pillars
+carved like giant snakes support the high ceiling, and a
+circular door hangs open to the west, revealing a slimy tunnel
+beyond.
+
+You are in the basement of the Shrieking Shack.  The furniture
+here is broken, and there are deep claw marks on the walls and
+floor.  The only way out is dark tunnel to the east.  Lupin the
+werewolf cowers in the corner.
+
+You are somewhere in a long, dark east/west tunnel.
+
+[USE #13]
+
+// 15								//
+[USE #13]
+
+You are at the east end of a small tunnel under the Whomping
+Willow.  The tunnel entrance is to the south.
+
+You are in the Hufflepuff Dormitories.  Copper lamps cast a warm
+light over four-poster beds with patchwork quilts.  There is a
+circular door to the east.
+
+You are in the Hufflepuff Common Room.  There are circular
+windows set high in the north wall, and the room is decorated
+with plants and yellow-and-black furniture.  There is a circular
+door to the west and a ramp leads upward to the south.
+
+You are in Hagrid's garden.  There are piles of pumpkins all
+around.  Hagrid's hut is to the south.
+
+// 20								//
+You are in the centaur's grove.  A trail leads south from here.
+
+[NODE NOT USED]
+
+You are in Professor Snape's office.  Rows of glass bottles sit
+on sagging shelves all around.  A skull sits on a desk, which
+is nearly buried in paper, and the floor looks as though it
+hasn't ever been swept.  A green fire burns in a grate, and a
+dark wooden door leads south.
+
+You are in the west end of the kitchens, under the Great Hall.
+The room is filled with long tables, and house elves run here
+and there, tiding things.  A flight of stairs leads upwards to
+the south.
+
+You are in the east end of the kitchens.  There are sinks,
+rolling pins, ovens, and other cooking equipment here.
+
+// 25								//
+You are in Hagrid's Hut.  The furniture is rather too large for
+you to use comfortably, but a merry fire burns in the fireplace.
+You are relieved to see that no dragon egg is present.  Doors
+lead north and south.  You see that Hagrid has written a note to
+himself: "Hid inkriminating evidince in Room of Rekwirement."
+
+You are in the Forbidden Forest.  Trails lead north, east, and
+south from here.  The eastern path is draped with spider webs.
+
+You are at the east end of a trail in the Forbidden Forest.
+Giant spiders hang on webs all around, looking at you.  Through
+a gap in the webs, you can see a vast hollow below you to the
+south.
+
+You are in a circular room lit by darting fireflies.  The only
+way out is a dark wooden door to the south.
+
+You are in the Potions Classroom.  Various bubbling cauldrons
+emit various colours of smoke.  The smell is terrible.  Dark
+wooden doors open to the north and east.
+
+// 30								//
+You are at the north end of the dungeon corridor.  There are
+dark wooden doors to the north and west.
+
+You are at the west edge of the Forbidden Forest.  To the north
+stands a wooded hut with a large door.  Trails lead east up a
+hill and west into the Forest.
+
+You are near the edge of the Forbidden Forest.  Trails lead east
+and west from here.
+
+You are in the Forbidden Forest, by a patch of black flowers.
+Trails lead north, south, and west from here.
+
+You are flying around near the west end of a tall, slanted room.
+A flock of winged keys swoops around you.
+
+// 35								//
+You are somewhere under Hogwarts.  The steep shaft slopes
+upwards to the west and downwards to the east.
+
+You are at the south end of the dungeon corridor.  To the east,
+stairs lead upwards.  The dungeon corridor is lit by an eerie
+green light.
+
+You are in the Forbidden Forest.  Trails lead north, east, and
+south from here.
+
+You are on a small hill in the Forbidden Forest.  Several of the
+trees near here have been uprooted, and many have arrows stuck
+in them.  A trail leads west.
+
+You are in a room overgrown by Devil's Snare.  The writhing
+vines shy away from your jar of Bluebell Flames.  A shaft leads
+upwards to the west, and a stone passage slopes downward to the
+north.
+
+// 40								//
+You are just north of an enameled door depicting a snake in
+green and silver.  Stairs made from square stone blocks lead
+upwards to the north and the west.
+
+You are on the north shore of the lake, below most of the fog.
+The reflection of the full moon makes a glowing path across the
+dark waters.  A more physical trail leads up the hill to the
+north.
+
+You are in the Forbidden Forest.  The trail continues north and
+east from here.
+Suddenly a blast-ended skrewt bursts out of the trees in a cloud
+of sparks.  It's nearly as tall as you, not even counting its
+scorpion tail.  Seconds later, you're dead.
+
+You are in the Slytherin Common Room.  There are large windows
+in the ceiling, showing a view of the lake from below.  There
+is an ornate door to the north and two smaller doors to the
+west, although those are both locked.
+
+You are on a short stretch of beach on the south shore of the
+lake.  Inland from the beach you is impenetrable forest.
+Across the lake, you can see the Dark Mark hovering over the
+North Tower.
+
+// 45								//
+You are to the north of an old, ruined castle overlooking a
+lake.  A sign in front of the castle says:
+"DANGER, DO NOT ENTER, UNSAFE"
+You suddenly realize that you are out in the middle of nowhere
+with a treasure chest full of gold.  You dash away to store it
+somewhere safe.
+
+You are in Filch's office.  Lovingly-polished manacles hang from
+the ceiling, kept ready for the day when their use will again be
+allowed.  There are doors to the east and south.
+
+You are in a small, dingy room.  The walls are covered with
+small filing boxes, with one labeled "CONFISCATED AND HIGHLY
+DANGEROUS" hanging open.  The only door is to the west.
+
+You are at the west end of the Great Hall, by the head table.
+Above you, the ceiling -- which shows a starry sky -- is
+smashed open, revealing the foggy night beyond.
+A pair of Death Eaters are poking around near the fireplace,
+looking for something.  As you approach, they turn around and
+let fly with stunner spells.  You are quickly hit, and the
+world goes dark.  And that's the end.
+
+You are at the east end of the Great Hall.  Above you, you can
+see the full moon shining out of a star-covered sky.  An ornate
+hallway leads south.  There are cracks in the sky above you to
+the west.
+
+// 50								//
+You are at the north end of a cobblestone pathway, just to the
+south of the main Hogwarts gates.  The Whomping Willow is to the
+east.
+
+You are at the base of the Whomping Willow, which, fortunately,
+seem quiescent at the moment.  There is a cobblestone pathway to
+the west and small tunnel leads down into the ground to the
+north.
+
+You are at the west end of the first-floor corridor.  There is
+a door on the north wall.
+
+You are at a T-junction in the first-floor corridor.  From
+here, the corridor continues east, south, and west.  To the
+north, a stairs mostly hidden behind a stack of barrels leads
+downward.
+
+You are in an east/west corridor.  A painting of a pear hangs
+open to the north, revealing downward stairs beyond.
+
+// 55								//
+You are in an ornate, north/south corridor.  From here, a
+plainer corridor leads west.
+
+You are at the west end of the Greenhouse.  It is very warm and
+steamy in here.  Numerous plants armed with different sorts of
+spikes, vines, and toxins grow in pots here.  The door is to the
+south.
+
+You are at the east end of the Greenhouse.  Large,
+umbrella-sized flowers grow near the ceiling, with smaller
+plants beneath.
+Suddenly a bouncing bulb slams into you from behind, knocking
+you into a row of small plants.  One pot slides off the shelf
+and smashes on the floor below, and the exposed mandrake root
+gives a mind-shattering shriek.
+
+You are in Moaning Myrtle's bathroom.  Water is pouring out of
+one of the stalls and across the floor out a door to the east.
+There are also a line of sinks to the south, one of which is
+partly pulled away from the wall.
+
+You are at the south end of the first-floor corridor.  Water
+is flowing out of a door labelled "GIRLS" to the west.  There is
+already a large pool of it on the floor near the east wall,
+below a grim message written in blood.  There is also a door to
+the south labelled "BOYS".  It doesn't look at all grim.
+
+// 60								//
+You are at the west end of the Entrance Hall.  A grand staircase
+leads upwards to the west and a hallway made from square stone
+blocks leads south.
+
+You are at the east end of the Entrance Hall.  Ornate hallways
+lead north and south and an enormous door leads east.
+
+You are standing under the main doors of Hogwarts.  The castle
+grounds are to the east and the Entrance Hall is to the west.
+
+You standing in a square courtyard in the Hogwarts grounds.
+Cobblestone pathways lead into the fog to the north, east, and
+south, and there is an enormous door into the castle to the
+west.
+
+You are at the east end of a cobblestone pathway, which leads
+to the greenhouse to the north.  A less-finished trail
+continues farther east down a slope.  To the south is the
+Quidditch Pitch, although it is not accessible from here.
+
+// 65								//
+You are among the pipes behind the sink in the girl's bathroom.
+The main part of the bathroom is to the north and a shaft slopes
+steeply downward to the east.
+
+You are in the boy's bathroom.  Everything here is neat and
+clean, and all the sinks appear to work perfectly.  The only way
+out is to the north.
+Malfoy is lying against the south wall, dazed.
+
+You are in a north/south hallway made from square, stone blocks.
+Stairs lead downward to the south.
+
+You are at the south end of an ornate corridor.  To the west,
+stairs lead downward to the dungeons.
+
+You are at the south end of a cobblestone pathway, which leads
+to the Quidditch Pitch to the east.  A trial leads down a hill
+to the south.
+
+// 70								//
+You are in the Quidditch Pitch.  The exit is to the west.
+
+You are in a dark, twisted shaft.  You can see a square of light
+above you to the north, and there is presumably a floor below
+you to to the east.  Your ladder must be standing on something.
+
+You are in the Defense Against the Darks Arts classroom.  There
+are cupboards and closets around the room, but they are all
+padlocked shut.  On the board is written a list of 17 ways to
+defuse difficult social situations without the use of magic.
+Stairs lead downward past a door the the east.
+
+You are in Professor Umbridge's office, which is decorated
+entirely in pink.  There is equipment in this room that looks
+suitable for interrogation, as well as some papers authorizing
+Umbridge to do anything she wants.  The only door is on the
+south wall.
+
+You are at the north end of a second-floor corridor.  Stairs
+lead upwards to the west.
+
+// 75								//
+You are by a bronze statue of a wizard in the second-floor
+corridor.  The corridor leads east and south from here and there
+is a door in the north wall.
+
+You are in a portable swamp that has filled a second-floor
+corridor.  Dark, leafy plants and tangled vines grow everywhere,
+and an impenetrable fog hangs in the air.  A convenient punt
+boat provides transportation, but it is impossible to see where
+you are going.
+
+You are in the Arithmancy classroom.  The walls are covered with
+numeric charts.  The door is to the west.
+
+You are in the Portrait Room.  The west wall is covered in
+portraits of previous headmasters.  There are corridors to the
+north and south, and stairs lead upwards to the east.
+
+You are at the top of the Entrance Hall stairs.  Archways open
+north and south, and the stairs lead down to the east.  There is
+a large Hogwarts crest carved on the western wall.
+
+// 80								//
+You are by a bronze statue of a witch in the second-floor
+corridor.  The corridor leads north and east here.  The statue
+of the witch seems to be laughing at you.
+
+You are at the east end of the second-floor corridor.  There is
+an open archway to the north and doors on the east and south
+walls.
+
+You are in Professor McGonagall's office.  It is very well
+organized, with books filed neatly on shelves and a
+white-painted door leading out to the west.
+
+You are in the Transfiguration classroom.  It is spacious and
+well-lit.  The only door is to the north.
+
+You are at the north end of the third-floor corridor.  Stairs
+lead downwards to the east.
+
+// 85								//
+You are in Professor Flitwick's office.  Various books are
+stacked on the tables, while other knickknacks are stacked
+haphazardly on shelves.  You see a note on the desk that reads
+"Room of Requirement is by troll painting -- search for weather
+charms".  The door is to the south.
+
+You are in the third-floor corridor.  The corridor continues
+north and far to the south, and stairs lead upwards to the east.
+
+You are in the Charms classroom.  It is impossible to make any
+noise in about half of this room, the walls change colour at
+random, and no less than three desks are floating around near
+the ceiling.  Through a partially-transparent section of the
+floor, you can see a swamp below with openings leading north,
+east, south, and west.  The last class in here must have gotten
+a bit out of hand.  From this room, doors lead north and south.
+
+You are in a forgotten room.  The only door (on the west wall)
+was nailed shut long ago.  A large window to the east, however,
+is broken.
+
+You are standing in an impenetrable fog, at the north end of a
+narrow ledge.  The window to the west is broken, giving access
+to the room beyond.
+
+// 90								//
+You are at the west end of the Fat Lady Corridor.  There are
+stairs leading down to the west and a classroom to the north.  A
+portrait of a fat lady hangs on the south wall.
+
+You are in a wider area at the east end of the Fat Lady
+Corridor.  There is a reinforced door to the south and stairs
+with an owl above them lead upwards to the north.  A large
+window to the east hangs open, letting in the cold night air.
+
+You are on a narrow ledge on the east side of the castle wall.
+There is an open window to the west and the ledge extends north
+and south from here.  It is unusually foggy tonight, perhaps
+because of Dementors.
+
+You are at the south end of the Forbidden Corridor.  A large,
+three-headed dog is sleeping next to a trapdoor by the south
+wall.  If you have more sense than courage, there is still
+time to retreat back north.
+
+You are in the Gryffindor Common Room.  There are squashy
+armchairs around a roaring fire and several windows, each with
+an unsurpassed view of the dark, foggy night.  The portrait hole
+is to the north and stairs lead upwards to the east.
+
+// 95								//
+You are in the Care of Magical Creatures classroom.  It's used
+less than the other classrooms because most of the creatures
+studied live outside.  This room has a reinforced door to the
+north and no windows.
+Professor Sprout is trying to feed venomous tentacula leaves to
+a sickly mooncalf.
+
+You are standing at the south end of a narrow ledge, which
+appears to be a dead end.
+Suddenly a dementor swoops down at you out of the fog.  When you
+try to fight it off, lose your balance and fall to your death
+below.
+
+You are in Professor Babbling's office.  Most of the north wall
+is covered by his version of The Chart.  There are tiny runes
+written all over it, connected by a spiderweb of coloured
+lines.  The only door is to the east.
+
+You are in the Study of Ancient Runes classroom.  There is a
+door on the west wall, and rune-carved stairs lead upwards to
+the north.
+
+You are in the restricted section of the library, where books
+dealing with dangerous or forbidden topics are kept.  The main
+area of the library is to the south.  Evidently whoever
+ransacked the rest of the library didn't get in here; the books
+are all still on their shelves.
+
+// 100								//
+You are in the vacant classroom.  It is rather small and dark,
+so it's no surprise it isn't used.  The door is to the south, so
+you might as well use that instead.
+
+You are in the lower floor of the library.  The exit is to the
+south and the restricted section (which is locked) is to the
+north.  Someone has ransacked this room, smashing shelves and
+throwing books all over.  The chance of finding anything
+specific in here is now nil.
+
+You are at the north end of the fourth-floor corridor.  There is
+a door on the north wall and stairs leading down towards the
+west.
+
+You are in the owlry, which is located at the top of a smaller
+tower.  A number of owls are swooping around, trying to catch
+Scabbers the rat, and many more are sleeping on the rafters
+above.  A rickety wooden staircase to the south leads downward.
+
+You are at a bend in the fourth floor corridor, which continues
+east and south from here.  To the north, the door to the
+library has been torn off its hinges.
+
+// 105								//
+You are at a T-junction in the fourth-floor corridor.  You can
+go north, south, and west from here.  A list of things Umbridge
+has banned from the Castle is painted on the east wall.  These
+include fireworks, defensive magic, quidditch, hand-holding,
+portable swamps, and Professor Trelawney.
+
+You are at the south end of the fourth-floor corridor.  There
+are stairs leading upwards to the east and a door to the south.
+
+You are in the runed corridor.  Ancient symbols are carved all
+over the walls.   Steps lead downward to the south, and the
+corridor continues north.
+
+You are in the Gryffindor Dormitories.  There are four-poster
+beds with red blankets here.  Stairs to the west lead downward.
+
+You are in the History of Magic classroom.  This room is boring.
+There are doors to the north and east.
+
+// 110								//
+You are in Professor Binn's office.  The only door is to the
+west.
+
+You are in the Room of Hidden Things, one manifestation of the
+Room of Requirement.  There are all sorts of odd things here,
+including books, broken furniture, a stuffed troll, and a cage
+with the skeleton of a quintaped inside.  The only way out is to
+the east.
+
+You are near the north end of the fifth floor corridor.  The
+true north end of the corridor is buried under a pile of rubble.
+A statue of a gargoyle stands against the west wall here.
+
+You are in the upper library, which is a large balcony.  The
+exit is to the south, but it would also be possible to jump
+down into the restricted section of the library to the north.
+The books have been torn off the shelves and, in some cases,
+apart.  You won't be able to find anything here.
+
+You are in a north/south corridor on the fifth floor.  There is
+large picture of trolls trying to dance on the east wall and a
+particularly empty spot opposite it on the west wall.
+
+// 115								//
+You are at a bend in the fifth floor corridor, which continues
+east and south from here.  There is also a smashed door in the
+north wall.
+
+You are at a T-junction, where a branch of the north/south
+corridor leads west.
+The ghost of a ragged man wearing chains is standing near the
+west wall.  When he sees you he says "Last I heard, they had a
+werewolf teaching the students Dark Arts now.  Someone ought to
+get some silver and run it out of town!"
+
+You are at the south end of the corridor, to the north of the
+South Tower.  Frigid air is flowing down out of the tower...
+
+You are at the south end of the fifth-floor corridor.  Stairs
+lead downward to the west and there is a classroom door to the
+south.
+
+You are in Professor Burbage's office, which is full of Muggle
+toys and instruments.  The only door is to the west.
+Bellatrix Lestrange is waiting in the room with her wand
+pointing at the door.  As soon as you open it, she cackles
+and shouts "Avada Kedavra".  The last thing you see is a flash
+of green light.
+
+// 120								//
+You are in the Muggle Studies room.  There's all kinds of weird
+stuff with plugs in this class.  There are doors to the north
+and west.
+
+You are in Dumbledore's office.  Scattered around the room are
+various golden knick-knacks, a perch for a phoenix, and a large
+telescope.  There are also many books, shelves, cupboards, and
+containers of candy.  A gently curving staircase leads downward
+to the east, although this is quite a nice place and you may
+want to consider abandoning your quest to sit, read, and eat
+candy.
+
+You are in the Astronomy Classroom.  A ladder leads up along the
+east wall.  There are also stairs curving down the north wall,
+but they are buried in rubble not far below.  There is a gaping
+hole in the wall to the south.
+
+You are on the top of the North Tower.  Waist-high crenellations
+surround a smooth flagstone floor with geometric lines cut into
+it.  The only off the tower is back down to the west.
+
+AVADA KEDAVRA!
+A bolt of green light shoots out of the north tower and strikes
+you dead.
+
+// 125								//
+You are riding your broomstick through the air between the two
+tallest towers in Hogwarts, which are far to the north and
+south.  The fog is thinner up here, but it is still cold and
+damp.
+
+[USE #124]
+
+You are in the Divination classroom, which is freezing cold.
+Stairs lead downwards to the north and farther up along the
+east wall.  The icy cold radiates from a glowing ball of magic
+in the center of this room.
+
+You are on the roof of the South Tower.  Through the fog, you
+can see the Dark Mark hovering over the North Tower.  Lower down
+on the North Tower you can see a gaping hole in the wall that
+you might be able to reach by broomstick.  The only other way
+off the tower room would be to climb back down the ladder to the
+west.
+Fenrir Greyback, the evil werewolf, lies whimpering near one
+side of the tower.
+
+[UNUSED]
+
+// 130								//
+The room is filled with leaping flames.  As you would prefer not
+to be burned to a crisp, you return the way you came.
+
+You quaff a small swallow of your fireproofing potion and wait.
+After a few seconds, a frigid sensation runs through your body
+and you cautiously venture into the inferno.
+
+You look deeply into the Mirror of Erised, and see within it
+your heart's desire: A treasure chest full of gold resting atop
+the North Tower.  Unfortunately, there doesn't seem to be any
+way to get it out.
+
+You look deeply into the Mirror of Erised, and see within it
+your heart's desire: A treasure chest full of gold resting atop
+the North Tower.  Unfortunately, there doesn't seem to be any
+way to get it out.
+Suddenly, you have a brilliant idea: There's no way to get
+anything out, but maybe you can get in!  You fasten your
+portable hole across the mirror and climb through.
+
+There is a very large, very stupid, and very smelly troll in the
+room.  Unfortunately, it is also holding a very large club, and
+quickly drives you back the way you came.
+
+// 135								//
+Grawp suddenly rushes forward and wrestles a troll in the room
+ahead to the ground.  Then he slams its head against the floor a
+few times until it lies still.
+
+The door is locked, and you have no way to open it.
+
+You use your winged, silver key to unlock the door.  It locks
+itself behind you.
+
+[UNUSED]
+
+Suddenly a snarling werewolf leaps out at you!  You desperately
+try to block it with your winged, silver key.  There is a hiss
+and a smell of burning flesh, and the werewolf retreats,
+whimpering.
+
+// 140								//
+You are confronted with a Hufflepuff student, who insistently
+shoos you away.  Only Hufflepuffs are allowed in the Hufflepuff
+basement.
+
+You are confronted with a Hufflepuff student.  You offer him one
+of your cauldron cakes, and it befuddles her for long enough for
+you to pass.
+
+You are confronted by a band of centaurs.  They demand that you
+leave because "Mars is bright tonight.  Very bright."
+
+You are confronted by a band of centaurs.  Using the information
+from your astronomical charts, you are able to involve them in
+an in-depth discussion about the planets.  They quite forget to
+send you away.
+
+Professor Snape sneers at you from inside his office.  "Good
+day," he says.  "Did you not understand that I have no time to
+give such elementary lessons?"
+
+// 145								//
+Professor Snape sneers at you from inside his office.  You ask
+him about the potion-making properties of your basilisk skin,
+and he heads off to look it up.
+
+As you approach the kitchens, you are confronted by Winky the
+house-elf.  She tells you that she cannot finish the "special
+cauldron cakes" until you bring her some befuddlement draught.
+Then she takes a long, unsteady drink from her bottle of
+Butterbeer and sends you away.
+
+As you approach the kitchens, you are confronted by Winky the
+house-elf.  You give her the befuddlement draught and she
+vanishes, only to reappear seconds later and hand it back.
+Then she takes a long, unsteady drink from her bottle of
+Butterbeer and vanishes again.
+
+This area of the forest is filled with giant carnivorous
+spiders!  The spiders chase you away from their home.
+
+This area of the forest is filled with giant carnivorous
+spiders!  The spiders smell Hagrid's coat and leave you alone.
+
+// 150								//
+Inside the potions classroom is Professor Snape.
+"Hello," he says.  "I see you have come for supplementary
+potions lesson.  However, you failed to bring your textbook.
+Don't return without it or I may have to give you detention!"
+You return the way you came.
+
+Inside the potions classroom is Professor Snape.
+"Hello," he says.  "I see you have come for supplementary
+potions lesson.  You have even brought your textbook.  However,
+that will be of no value to you.  I am far to busy to help
+you."  Snape then retreats to his office.
+
+There is no way to the higher part of the room from here.
+Unless you could fly, I guess, but you're more human than bird.
+
+You zoom upwards on your Comet 360 broomstick.
+
+The way look unpleasantly vertical, and you don't feel up to
+that much climbing.
+
+// 155								//
+You extend your extensible ladder and begin to climb.
+
+Hagrid's half-brother Grawp is loose in this area of the forest!
+You run away from him.
+
+Hagrid's half-brother Grawp is loose in this area of the forest!
+You manage to lasso him with your rope and quickly pull it
+tight.  Now you can lead him around.
+
+The room contains Devil's Snare!  The vines attempt to devour
+you, and you flee back the way you came.
+
+The room contains Devil's Snare!  You pour a bit of Bluebell
+Flame out of your jar and the creeping tendrils retreat.
+
+// 160								//
+The Slytherins refuse to let you into their common room.
+
+You take a small swallow of your polyjuice potion and
+temporarily assume the form of Professor Snape.  The next time
+a Slytherin opens the door, you slip through.
+
+You daren't attempt swimming across the lake.
+
+You eat some of your gillyweed and swim across the lake.
+
+This is Filch's office.  You really dislike him, and he has
+been in a bad mood ever since his cat went missing, so you
+leave before he does something mean to you.
+
+// 165								//
+Filch is inside his office.  As you approach, he sees the
+petrified cat, and his eyes widen with shock.  He runs away,
+screaming that you have been using Dark magic.
+
+The Whomping Willow is a very mean tree. You are quickly too
+battered to continue, so you return the way you came.
+
+You toss your fanged frisbee at the tree, and hit a secret
+knothole.  The tree stops moving, at least for now...
+
+The very large door is locked.
+
+You use your large key to unlock the door.
+
+// 170								//
+Hermione sits mixing a potion.  "I can't remember how to finish
+this!" she complains.  "Go get me Moste Potente Potions from the
+library and bring it here."  You return the way you came.
+
+"Thanks!"  Hermione takes your copy of Moste Potente Potions and
+makes a few more additions to the potion.  Then she hands you
+back the book.
+
+As soon as you open the door, a Knockback Jinx hits you with a
+loud bang.  The door swings shut again while you stagger
+backwards.
+
+As soon as you open the door, a Knockback Jinx bounces off the
+protective shield from your shield hat.  You hear a loud bang
+from somewhere inside the room beyond.
+
+The door to the Quidditch Pitch is boarded over, and a sign
+explains that this order came from the Hogwarts High Inquisitor.
+You return to the path.
+
+// 175								//
+[ERROR: THIS MESSAGE SHOULD NEVER APPEAR]
+
+[UNUSED]
+
+[UNUSED]
+
+Professor Umbridge is in her office.  "Hem, hem," she coughs.
+"What are you doing here?"  You beat a hasty retreat before she
+assigns you a detention.
+
+You set off one of your fireworks and it zooms into Umbridge's
+office to the north.  She screams shrilly and flees.
+
+// 180								//
+There is a ledge outside the window, but it is far too narrow to
+stand on.  You would lose your balance.
+
+You take a small swallow of your balancing potion, a deep
+breath, and a cautious step out onto the ledge.  You don't fall
+off.  So far, so good.
+
+You cannot remember the password, so you can't get in.
+
+You recite the passwords on your list and the portrait of the
+Fat Lady swings open.
+
+You are in the Care of Magical Creatures classroom.  Professor
+Sprout is looking worriedly at a sickly mooncalf.  When she
+sees you, she insists that you go and fetch her some venomous
+tentactula leaves from the greenhouse.  You return to the
+corridor.
+
+// 185								//
+Professor Sprout greets you at the door and asks for some of
+your venomous tentactula leaves.  You give her some and she
+goes back to worrying over a strange creature with silvery fur
+and bulging blue eyes.
+
+You are in the owlry.  A number of hungry owls keep swooping
+down at you.  Since you have nothing to feed them, you are
+forced to retreat back down the stairs.
+
+Suddenly Scabbers the rat scurries away, pursued by swooping
+owls.  Despite a number close calls, he consistently manages to
+avoid them.  He will probably follow you when you leave the
+room, but for now he is keeping the owls occupied.
+
+Inside this corridor is a ferocious three-headed dog!  It roars
+and charges at you, but you manage to escape back to the north.
+Its barking fades as it realizes you are gone.
+
+Inside the corridor is a ferocious three-headed dog, but
+fortunately you know how to deal with these (from a Care of
+Magical Creatures textbook).  You start playing your lyre, and
+the dog goes to sleep.
+
+// 190								//
+As you are about to enter the room, Professor Binns intercepts
+you.  He tells you to go study the Goblin Rebellion of 1753,
+because it will be on the exam.  Maybe he thinks that you are
+somebody else?
+
+As soon as you enter the room, Professor Binns intercepts you.
+Using the essay you found earlier as a basis, you are able to
+ask some detailed questions about the Goblin Rebellion of 1753
+and Professor Binns invites you into his office to discuss them.
+
+Professor Binns spends the next hour lecturing you on the
+intricacies of goblin intra-clan politics.  Finally, he stops
+and you stagger away in a daze.
+
+[ERROR: THIS MESSAGE SHOULD NEVER APPEAR]
+
+You can't go in that direction.  There's a wall.  Unless you
+can make a door magically appear...
+
+// 195								//
+As you stare at the wall, you think about how you will have to
+hide your axe somewhere to avoid being taken for a murderer.
+Magically, the wall opens and you walk through into a large
+room beyond.
+
+You do not know the password, so the gargoyle will not allow
+you to pass.
+
+You try to think of the password, and notice your Sherbet
+Lemons.  "Sherbet Lemons!" you say, and the gargoyle lets you
+past.
+
+The Dark Lord Who Shall Not Be Named guards the North Tower.
+"Hello." he says.  "I would very much like to kill you, but I
+have decided to give you one more chance.  Join me, and you
+will have all you truly desire.  All I ask is that you bring
+me the Philosopher's Stone!"
+Then, seeing that you do not have the Stone, he sends you away.
+
+The Dark Lord Who Shall Not Be Named guards the North Tower.
+You hand him the Philosopher's Stone, and he thanks you most
+politely.  After examining it carefully, he asks you to hold
+onto it for a little longer while he takes care of a few minor
+issues.  He then soars away into the foggy night...
+
+// 200								//
+The other tower is too far away to jump to.
+
+You mount your broomstick and launch yourself into the foggy
+night.
+
+Your fingers start to go numb almost immediately.  You are going
+to need some warm clothing to continue.
+
+You pull your hands inside Hagrid's coat and shiver violently,
+but are able to continue.  Brrr!
+
+You attempt to move the loose sink, but it is attached to the
+wall by a copper pipe.
+
+// 205								//
+You use your wrench to detach the pipe from the sink and you are
+able to drag it aside.
+
+Fenrir Greyback, the evil werewolf, attacks!  You tumble down
+the stairs as he laughs.  "Don't come back!" he calls after you.
+
+There's no way you're leaving the castle without that treasure!
+
+The spell guarding the gate ripples as you pass through.
+
+The tunnel is blocked by a stone wall carved with a bas-relief
+picture of a snake.  There doesn't seem to be any way past.
+
+// 210								//
+The tunnel is blocked by a stone wall carved with a bas-relief
+picture of a snake.  You are pondering how to get past when your
+viper gives a hiss and a circular door in the wall swings open.
+
+
+
+Replace
+-------
+Salazar Slytherin
+Lupin
+Hogwarts
+Snape
+Defense Against the Dark Arts
+House elves
+blast-ended skrewt
+Slytherin
+Hufflepuff
+Hagrid
+Forbidden Forest
+Whimping Willow
+Filch
+Dementors
+[ JUST CHECK ALL THE DESCRIPTIONS ]

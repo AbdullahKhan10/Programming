@@ -1,0 +1,52 @@
+USE 250907213assign2db;
+
+-- Query 1
+SELECT last_name FROM patient;
+
+-- Query 2
+SELECT DISTINCT last_name FROM patient;
+
+-- Query 3
+SELECT * FROM doctor ORDER BY last_name;
+
+-- Query 4
+SELECT name, hospital_id FROM hospital WHERE number_of_beds > 1500;
+
+-- Query 5
+SELECT doctor.last_name, doctor.first_name FROM doctor INNER JOIN hospital ON doctor.works_at = hospital.hospital_id WHERE hospital.name = 'St.Joseph';
+
+-- Query 6
+SELECT first_name, last_name FROM patient WHERE last_name LIKE 'G%';
+
+-- Query 7
+SELECT patient.first_name, patient.last_name FROM patients_assigned_to_doctor 
+JOIN doctor ON patients_assigned_to_doctor.doctor_id = doctor.license_number 
+JOIN patient ON patients_assigned_to_doctor.patient_id = patient.ohip_number 
+WHERE doctor.last_name = 'Clooney';
+
+-- Query 8
+SELECT hospital.name, hospital.city, doctor.last_name FROM hospital 
+JOIN doctor ON hospital.head_doctor = doctor.license_number;
+
+-- Query 9
+SELECT SUM(number_of_beds) AS TotalNumberofBeds FROM hospital;
+
+-- Query 10
+SELECT patient.first_name AS PatientFirstName, doctor.first_name AS DoctorFirstName FROM patients_assigned_to_doctor 
+JOIN doctor ON patients_assigned_to_doctor.doctor_id = doctor.license_number 
+JOIN patient ON patients_assigned_to_doctor.patient_id = patient.ohip_number
+WHERE doctor.license_number IN (SELECT head_doctor AS license_number FROM hospital);
+
+-- Query 11
+SELECT doctor.last_name, doctor.first_name FROM doctor 
+JOIN hospital ON doctor.works_at = hospital.hospital_id
+WHERE hospital.name = 'Victoria' AND doctor.specialty = 'Surgeon';
+
+-- Query 12
+SELECT DISTINCT doctor.first_name FROM doctor, patients_assigned_to_doctor 
+WHERE doctor.license_number NOT IN (SELECT doctor_id FROM patients_assigned_to_doctor); 
+
+-- Query 13
+SELECT first_name, last_name FROM doctor, patients_assigned_to_doctor
+WHERE doctor.license_number = patients_assigned_to_doctor.doctor_id
+GROUP BY doctor.license_number HAVING COUNT(doctor.license_number) > 1;

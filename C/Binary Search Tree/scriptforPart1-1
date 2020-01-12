@@ -1,0 +1,104 @@
+Script started on Fri 16 Nov 2018 07:21:44 PM EST
+[?1034hbash-4.2$ pwdc [K[K 
+/gaul/s1/student/2018/akhan689/Courses/CS2211a/Asn/asn4
+bash-4.2$ date
+Fri Nov 16 19:21:50 EST 2018
+bash-4.2$ who am i 
+akhan689 pts/16       2018-11-16 19:21
+bash-4.2$ ls
+part1  script1
+bash-4.2$ cd part1
+bash-4.2$ ls
+bst.c  bst.h  data.c  data.h  main.c
+bash-4.2$ gcc -o main.c data.c bst.g[Kh
+[01m[Kbst.h:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file [enabled by default]
+ #pragma once
+[01;32m[K         ^[m[K
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+bash-4.2$ ls
+bst.c  bst.h  data.c  data.h
+bash-4.2$ ls
+bst.c  bst.h  data.c  data.h  main.c
+bash-4.2$ gcc -o out main.c data.c bst.c
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:63:3:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kkey_construct[m[K’ from incompatible pointer type [enabled by default]
+   bstree_insert(bst, key_construct(key_name, key_id), data);
+[01;32m[K   ^[m[K
+In file included from [01m[Kbst.h:3:0[m[K,
+                 from [01m[Kmain.c:6[m[K:
+[01m[Kdata.h:8:6:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kchar *[m[K’ but argument is of type ‘[01m[Kchar **[m[K’
+ Key *key_construct(char *in_name, int in_id);
+[01;32m[K      ^[m[K
+bash-4.2$ vi [K[K[Kvi main.c
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"main.c" [noeol][dos] 73L, 2035C[1;1H// ====== this is a sample main program
+#define _CRT_SECURE_NO_WARNINGS
+#define MAX_STRING_LEN 80
+
+#include <stdio.h>
+#include "bst.h"
+#include "data.h"
+
+int main(void) {[11;9H/*BStree bst;[12;9Hbst = bstree_ini(1000);[13;9Hbstree_insert(bst, key_construct("Once", 1), 11);[14;9Hbstree_insert(bst, key_construct("Upon", 22), 2);[15;9Hbstree_insert(bst, key_construct("a", 3), 33);[16;9Hbstree_insert(bst, key_construct("Time", 4), 44);[17;9Hbstree_insert(bst, key_construct("is", 5), 55);[18;9Hbstree_insert(bst, key_construct("filmed", 6), 66);[19;9Hbstree_insert(bst, key_construct("in", 7), 77);[20;9Hbstree_insert(bst, key_construct("Vancouver", 8), 88);[21;9Hbstree_insert(bst, key_construct("!", 99), 9);[22;9Hbstree_insert(bst, key_construct("Once", 5), 50);[23;9Hbstree_insert(bst, key_construct("Once", 1), 10);[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+[11;8H[12;8H[13;8H[14;8H[15;8H[16;8H[17;8H[18;8H[?25l[24;1H[1m-- INSERT --[m[24;13H[K[18;1H[?12l[?25h
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[23;9Hbstree_traversal(bst);[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hbstree_free(bst);*/[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HBStree bst;[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hint bst_size;[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hchar *key_name[MAX_STRING_LEN];[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hchar key_id;[?12l[?25h[22;1H[8Cchar *[?25lkey_name[MAX_STRING_LEN];[22;39H[K[22;14H[?12l[?25h[24;1H[K[22;13H[?25l[?12l[?25h[?25l
+
+:[?12l[?25hwq[?25l"main.c" [dos] 73L, 2036C written
+[?1l>[?12l[?25h[?1049lbash-4.2$ la
+bash: la: command not found
+bash-4.2$ ls
+bst.c  bst.h  data.c  data.h  main.c  out
+bash-4.2$ ma[K[Kgcc -o out main.c bst.c data.c
+bash-4.2$ ls
+bst.c  bst.h  data.c  data.h  main.c  out
+bash-4.2$ ./out
+Welcome to the binary tree insertion and print program!!
+Enter an integer number of the size of the binary tree: 209 
+Binary search tree of size 20 is initialized!
+
+How many items would you like to insert into the tree: 3
+
+Please enter a key name: asdf
+Please enter a key id (This is a number): 34
+Please enter the ID (This is a number): 54
+Your item was inserted into the tree!
+
+Please enter a key name: gfdsa
+Please enter a key id (This is a number): 45
+Please enter the ID (This is a number): 234
+Your item was inserted into the tree!
+
+Please enter a key name: asfd
+Please enter a key id (This is a number): 54
+Please enter the ID (This is a number): 234
+Your item was inserted into the tree!
+
+Here is the traversal of the tree you created: 
+
+( 34) 54 
+( 45) 234 
+( 54) 234 
+bash-4.2$ exit
+exit
+
+Script done on Fri 16 Nov 2018 07:25:51 PM EST

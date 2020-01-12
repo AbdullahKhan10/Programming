@@ -1,0 +1,17 @@
+-- cs3319 Assignment 2 Script 4
+USE 250907213assign2db; -- move to the appropriate database
+CREATE VIEW view1 AS -- create a view named view1 and make the result of the select statement below the view
+SELECT patient.first_name AS PatientFirstName, patient.last_name AS PatientLastName, doctor.last_name AS DoctorLastName, doctor.works_at AS Hospital FROM patients_assigned_to_doctor 
+JOIN doctor ON patients_assigned_to_doctor.doctor_id = doctor.license_number 
+JOIN patient ON patients_assigned_to_doctor.patient_id = patient.ohip_number
+WHERE doctor.license_number IN (SELECT head_doctor AS license_number FROM hospital WHERE head_doctor_start_date > "1995-12-31");
+-- WHERE doctor.license_number IN (SELECT head_doctor FROM hospital WHERE head_doctor_start_date > "1995-12-31");
+SELECT * FROM view1; -- displays the view
+SELECT * FROM doctor; -- show the full doctor table
+SELECT * FROM patients_assigned_to_doctor; -- show the full treats table
+DELETE FROM doctor WHERE last_name = 'Clooney'; -- remove Clonney
+SELECT * FROM doctor; -- show the full doctor table
+SELECT * FROM patients_assigned_to_doctor; -- show the full treats table
+SELECT * FROM doctor; -- show the full doctor table
+DELETE FROM doctor WHERE specialty = 'Surgeon'; -- Reason why the above command will give an error is because when we made head_doctor in the hospital table as the foriegn key to doctor_id we did not specify what would happen when it was deleted such as "ON DELETE SET NULL" or "ON DELETE CASCADE" and thus a doctor who is in the head_doctor fields cannot be deleted
+-- In order to delete a head doctor you must set the head_doctor to NULL for the specific doctor you are trying to delete in the hospital table

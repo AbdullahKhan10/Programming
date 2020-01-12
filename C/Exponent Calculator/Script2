@@ -1,0 +1,55 @@
+Script started on Thu 11 Oct 2018 07:41:27 PM EDT
+bash-4.2$ pwd
+/gaul/s1/student/2018/akhan689/Courses/CS2211a/Asn/asn2
+bash-4.2$ date
+Thu Oct 11 19:41:38 EDT 2018
+bash-4.2$ who am i 
+akhan689 pts/10       2018-10-11 19:41
+bash-4.2$ ls
+a.out  converter.c  exp_calculator.c  Part_1  part_2  Submission Form.txt
+bash-4.2$ gcc exp_calculator.c
+bash-4.2$ ls
+a.out  converter.c  exp_calculator.c  Part_1  part_2  Submission Form.txt
+bash-4.2$ ./a.out
+Enter a positive base: 2
+Enter the exponent (Note - the absolute value of your entry will be taken: 4
+
+Your result is: 16.000000 
+bash-4.2$ ./a.out
+Enter a positive base: 1
+Enter the exponent (Note - the absolute value of your entry will be taken: 100
+
+Your result is: 1.000000 
+bash-4.2$ ./
+bash: ./: Is a directory
+bash-4.2$ ./a.out
+Enter a positive base: 3
+Enter the exponent (Note - the absolute value of your entry will be taken: 97
+
+Your result is: inf 
+bash-4.2$ ./a.out
+Enter a positive base: 3
+Enter the exponent (Note - the absolute value of your entry will be taken: 5
+
+Your result is: 243.000000 
+bash-4.2$ ./a.out
+Enter a positive base: -5
+Your entry is invalid! Please enter a positive base: -8
+Your entry is invalid! Please enter a positive base: -1
+Your entry is invalid! Please enter a positive base: -3
+Your entry is invalid! Please enter a positive base: -100
+Your entry is invalid! Please enter a positive base: 7
+Enter the exponent (Note - the absolute value of your entry will be taken: 2
+
+Your result is: 49.000000 
+bash-4.2$ ./a.out
+Enter a positive base: 7
+Enter the exponent (Note - the absolute value of your entry will be taken: -3
+
+Your result is: 343.000000 
+bash-4.2$ ls
+a.out  converter.c  exp_calculator.c  Part_1  part_2  Submission Form.txt
+bash-4.2$ exit
+exit
+
+Script done on Thu 11 Oct 2018 07:44:39 PM EDT

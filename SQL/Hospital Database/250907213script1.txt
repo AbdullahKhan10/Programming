@@ -1,0 +1,49 @@
+-- cs3319 Assignment 2 Script 1
+SHOW DATABASES; -- lists all the current databases
+DROP DATABASE IF EXISTS 250907213assign2db; -- deletes the database called 250907213assign2db if it exists
+CREATE DATABASE 250907213assign2db; -- creates a database called 250907213assign2db
+USE 250907213assign2db; -- connects to use the database
+-- let ta have access to my database in order to mark this assignment
+GRANT USAGE ON *.* TO 'ta'@'localhost';
+DROP USER 'ta'@'localhost';
+CREATE USER 'ta'@'localhost' IDENTIFIED BY 'cs3319';
+GRANT ALL PRIVILEGES ON 250907213assign2db.* TO 'ta'@'localhost';
+FLUSH PRIVILEGES;
+SHOW TABLES; -- list all the tables (should be none initially)
+-- create table for patient
+CREATE TABLE patient(
+    ohip_number DECIMAL(9, 0) PRIMARY KEY,
+    first_name VARCHAR(20),
+    last_name VARCHAR(20)
+);
+-- create table for doctor
+CREATE TABLE doctor(
+    license_number VARCHAR(4) PRIMARY KEY,
+    first_name VARCHAR(20),
+    last_name VARCHAR(20),
+    specialty VARCHAR(30),
+    date_licensed DATE,
+    works_at VARCHAR(3) 
+);
+-- create table for hospital
+CREATE TABLE hospital(
+    hospital_id VARCHAR(3) PRIMARY KEY,
+    name VARCHAR(20),
+    city VARCHAR(20),
+    province VARCHAR(2),
+    number_of_beds INT,
+    head_doctor VARCHAR(4),
+    head_doctor_start_date DATE
+);
+-- create table for treats
+CREATE TABLE patients_assigned_to_doctor (
+    doctor_id VARCHAR(4),
+    patient_id DECIMAL(9, 0),
+    PRIMARY KEY(doctor_id, patient_id)
+);
+-- Adds all the foreign keys
+ALTER TABLE doctor ADD FOREIGN KEY(works_at) REFERENCES hospital(hospital_id);
+ALTER TABLE hospital ADD FOREIGN KEY(head_doctor) REFERENCES doctor(license_number);
+ALTER TABLE patients_assigned_to_doctor ADD FOREIGN KEY(patient_id) REFERENCES patient(ohip_number) ON DELETE CASCADE;
+ALTER TABLE patients_assigned_to_doctor ADD FOREIGN KEY(doctor_id) REFERENCES doctor(license_number) ON DELETE CASCADE;
+SHOW TABLES; -- list all the tables again

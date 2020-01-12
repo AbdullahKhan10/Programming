@@ -1,0 +1,202 @@
+Script started on Thu 11 Oct 2018 07:32:21 PM EDT
+bash-4.2$ pwd
+/gaul/s1/student/2018/akhan689/Courses/CS2211a/Asn/asn2
+bash-4.2$ date
+Thu Oct 11 19:33:19 EDT 2018
+bash-4.2$ who am i
+akhan689 pts/10       2018-10-11 19:32
+bash-4.2$ ls
+a.out  converter.c  exp_calculator.c  part_1  Submission Form.txt
+bash-4.2$ gcc converter.c
+bash-4.2$ ls
+a.out  converter.c  exp_calculator.c  part_1  Submission Form.txt
+bash-4.2$ ./a.out
+
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+1
+
+Enter K - for conversion from Kilometer to Mile.
+Enter M - for conversion from Mile to Kilometer.
+
+k
+
+Your entry is invalid!
+Please enter a valid character (Note - Entry is case sensitive): K
+
+Enter value in Kilometers: 36
+Your value in Miles: 22.374146
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+9
+
+Your entry is invalid!
+Please enter a valid number: 1
+Enter K - for conversion from Kilometer to Mile.
+Enter M - for conversion from Mile to Kilometer.
+
+M
+
+Enter value in Miles: 19
+Your value in Kilometers: 30.570999
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+2
+
+Enter M - for conversion from Meter to Feet.
+Enter F - for conversion from Feet to Meter.
+
+j
+
+Your entry is invalid!
+Please enter a valid character (Note - Entry is case sensitive): M
+
+Enter value in Meters: 83
+Your value in Feet: 272.309723
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+2
+
+Enter M - for conversion from Meter to Feet.
+Enter F - for conversion from Feet to Meter.
+
+F
+
+Enter value in Feet: 55
+Your value in Meters: 16.764000 
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+3
+
+Enter C - for conversion from Centimetre to Inch.
+Enter I - for conversion from Inch to Centimetre.
+
+c
+
+Your entry is invalid!
+Please enter a valid character (Note - Entry is case sensitive): C
+
+Enter value in Centimetres: 61
+Your value in Inches: 24.015749
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+3
+
+Enter C - for conversion from Centimetre to Inch.
+Enter I - for conversion from Inch to Centimetre.
+
+I
+
+Enter value in Inches: 42
+Your value in Centimetres: 106.680000
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+10
+
+Your entry is invalid!
+Please enter a valid number: 0
+Your entry is invalid!
+Please enter a valid number: 4
+Enter C - for conversion from Celsius to Fahrenheit.
+Enter F - for conversion from Fahrenheit to Celsius.
+
+C
+
+Enter value in Celsius: 53
+Your value in Fahrenheit: 127.400002
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+4
+
+Enter C - for conversion from Celsius to Fahrenheit.
+Enter F - for conversion from Fahrenheit to Celsius.
+
+f
+
+Your entry is invalid!
+Please enter a valid character (Note - Entry is case sensitive): F
+
+Enter value in Fahrenheit: 76
+Your value in Celsius: 24.446400
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+4
+
+Enter C - for conversion from Celsius to Fahrenheit.
+Enter F - for conversion from Fahrenheit to Celsius.
+
+F
+
+Enter value in Fahrenheit: 4
+Your value in Celsius: -15.556800
+
+What would you like to do?
+Enter 1 - conversion between Kilometer and Mile.
+Enter 2 - conversion between Meter and Feet.
+Enter 3 - conversion between Centimetre and Inch.
+Enter 4 - conversion between Celsius and Fahrenheit.
+Enter 5 - quit.
+
+5
+
+Quit!
+bash-4.2$ ls
+a.out  converter.c  exp_calculator.c  part_1  Submission Form.txt
+bash-4.2$ exit
+exit
+
+Script done on Thu 11 Oct 2018 07:37:27 PM EDT

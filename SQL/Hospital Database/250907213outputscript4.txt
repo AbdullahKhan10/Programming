@@ -1,0 +1,118 @@
+Warning: Using a password on the command line interface can be insecure.
+--------------
+CREATE VIEW view1 AS 
+SELECT patient.first_name AS PatientFirstName, patient.last_name AS PatientLastName, doctor.last_name AS DoctorLastName, doctor.works_at AS Hospital FROM patients_assigned_to_doctor 
+JOIN doctor ON patients_assigned_to_doctor.doctor_id = doctor.license_number 
+JOIN patient ON patients_assigned_to_doctor.patient_id = patient.ohip_number
+WHERE doctor.license_number IN (SELECT head_doctor AS license_number FROM hospital WHERE head_doctor_start_date > "1995-12-31")
+--------------
+
+Query OK, 0 rows affected (0.04 sec)
+
+--------------
+SELECT * FROM view1
+--------------
+
++------------------+-----------------+----------------+----------+
+| PatientFirstName | PatientLastName | DoctorLastName | Hospital |
++------------------+-----------------+----------------+----------+
+| Bill             | Gellar          | Shabado        | BBC      |
+| Colleen          | Gellar          | Shabado        | BBC      |
+| Scotty           | Bing            | Shabado        | BBC      |
++------------------+-----------------+----------------+----------+
+3 rows in set (0.00 sec)
+
+--------------
+SELECT * FROM doctor
+--------------
+
++----------------+------------+------------+--------------+---------------+----------+
+| license_number | first_name | last_name  | specialty    | date_licensed | works_at |
++----------------+------------+------------+--------------+---------------+----------+
+| GD56           | Joey       | Shabado    | Podiatrist   | 1960-06-24    | BBC      |
+| JK78           | Mandy      | Webster    | Surgeon      | 1990-08-08    | BBC      |
+| RD34           | Bernie     | Kavorikian | Urologist    | 1980-09-09    | BBC      |
+| SE66           | Colleen    | Aziz       | Surgeon      | 1989-08-24    | ABC      |
+| SE67           | Gregory    | House      | Surgeon      | 1978-01-01    | ABC      |
+| YT67           | Ben        | Spock      | Pediatrician | 1955-02-20    | DDE      |
++----------------+------------+------------+--------------+---------------+----------+
+6 rows in set (0.00 sec)
+
+--------------
+SELECT * FROM patients_assigned_to_doctor
+--------------
+
++-----------+------------+
+| doctor_id | patient_id |
++-----------+------------+
+| GD56      |  110112113 |
+| JK78      |  111222333 |
+| SE66      |  111222333 |
+| GD56      |  333444555 |
+| JK78      |  444555666 |
+| GD56      |  667766777 |
+| JK78      |  667766777 |
++-----------+------------+
+7 rows in set (0.00 sec)
+
+--------------
+DELETE FROM doctor WHERE last_name = 'Clooney'
+--------------
+
+Query OK, 0 rows affected (0.00 sec)
+
+--------------
+SELECT * FROM doctor
+--------------
+
++----------------+------------+------------+--------------+---------------+----------+
+| license_number | first_name | last_name  | specialty    | date_licensed | works_at |
++----------------+------------+------------+--------------+---------------+----------+
+| GD56           | Joey       | Shabado    | Podiatrist   | 1960-06-24    | BBC      |
+| JK78           | Mandy      | Webster    | Surgeon      | 1990-08-08    | BBC      |
+| RD34           | Bernie     | Kavorikian | Urologist    | 1980-09-09    | BBC      |
+| SE66           | Colleen    | Aziz       | Surgeon      | 1989-08-24    | ABC      |
+| SE67           | Gregory    | House      | Surgeon      | 1978-01-01    | ABC      |
+| YT67           | Ben        | Spock      | Pediatrician | 1955-02-20    | DDE      |
++----------------+------------+------------+--------------+---------------+----------+
+6 rows in set (0.00 sec)
+
+--------------
+SELECT * FROM patients_assigned_to_doctor
+--------------
+
++-----------+------------+
+| doctor_id | patient_id |
++-----------+------------+
+| GD56      |  110112113 |
+| JK78      |  111222333 |
+| SE66      |  111222333 |
+| GD56      |  333444555 |
+| JK78      |  444555666 |
+| GD56      |  667766777 |
+| JK78      |  667766777 |
++-----------+------------+
+7 rows in set (0.00 sec)
+
+--------------
+SELECT * FROM doctor
+--------------
+
++----------------+------------+------------+--------------+---------------+----------+
+| license_number | first_name | last_name  | specialty    | date_licensed | works_at |
++----------------+------------+------------+--------------+---------------+----------+
+| GD56           | Joey       | Shabado    | Podiatrist   | 1960-06-24    | BBC      |
+| JK78           | Mandy      | Webster    | Surgeon      | 1990-08-08    | BBC      |
+| RD34           | Bernie     | Kavorikian | Urologist    | 1980-09-09    | BBC      |
+| SE66           | Colleen    | Aziz       | Surgeon      | 1989-08-24    | ABC      |
+| SE67           | Gregory    | House      | Surgeon      | 1978-01-01    | ABC      |
+| YT67           | Ben        | Spock      | Pediatrician | 1955-02-20    | DDE      |
++----------------+------------+------------+--------------+---------------+----------+
+6 rows in set (0.00 sec)
+
+ERROR 1451 (23000) at line 16: Cannot delete or update a parent row: a foreign key constraint fails (`250907213assign2db`.`hospital`, CONSTRAINT `hospital_ibfk_1` FOREIGN KEY (`head_doctor`) REFERENCES `doctor` (`license_number`))
+--------------
+DELETE FROM doctor WHERE specialty = 'Surgeon'
+--------------
+
+Bye
